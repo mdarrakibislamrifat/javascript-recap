@@ -8,4 +8,6 @@ for (let i = 0; i <= 50; i++){
 
 const endTime = performance.now();
 
+
+
 console.log(`Loop took ${endTime - startTime} milliseconds.`);
