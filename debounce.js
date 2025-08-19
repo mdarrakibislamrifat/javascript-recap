@@ -1,4 +1,6 @@
 const button = document.getElementById("button");
+
+
 function debounce(fn, delay) {
     let timeoutId;
     return function () {
